@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="img/icon.jpg" />
+
+  <!--CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Animacion CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <title>ECEEN - About Us</title>
+</head>
+
+<body class="largeBG">
+
+  <!--HEADER-->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler px-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <img src="img/menu.png" style="width: 2rem !important;" class="hamburguesa">
+            </button>
+
+            <!-- Logo de Eceen -->
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="logo ms-center"></a>
+
+            <!-- Barra de Navegación y elementos -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-start">
+                    <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link px-3" href="products01.html">Products</a>
+                    <a class="nav-link px-3 active" href="news.html">News</a>
+                    <a class="nav-link px-3" href="aboutUs.html">About Us</a>
+                    <a class="nav-link px-3" href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <!-- Dropdown - Buscar -->
+            <li class="nav-item dropdown list-unstyled d-none d-sm-block">
+                <a class="nav-link dropdown text-end" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="img/search.png" width="25rem">
+                </a>
+                <div class="dropdown-menu  dropdown-menu-end">
+                    <form class="d-flex" style="width: 30rem;">
+                        <input class="form-control me-2 ms-2" type="search" placeholder="What are you looking for?"
+                            aria-label="Search">
+                        <button class="btn btn-primary-sm me-2" type="submit">Search</button>
+                    </form>
+                </div>
+            </li>
+
+            <!-- Dropdown - Carrito -->
+            <li class="nav-item list-unstyled d-none d-sm-block">
+                <a class="nav-link" href="cart.html"><img src="img/cart.png" width="25rem"></a>
+            </li>
+
+            <!-- Dropdown - Usuario -->
+            <li class="nav-item dropdown list-unstyled d-sm-block">
+                <a class="nav-link dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/user.png" width="25rem">
+                </a>
+                <div class="dropdown-menu px-4 py-3 dropdown-menu-end">
+                    <div id="login">
+                        <form class="px-4 py-3" style="width: 16rem;">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Email address</label>
+                                <input type="email" class="form-control" name="name" id="form_name"
+                                     placeholder="email@example.com"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id=""
+                                    placeholder="Password"/>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck"/>
+                                    <label class="form-check-label" for="dropdownCheck">
+                                        Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="submit" value="Send" class="btn btn-primary-sm justify-content-center">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-tertiary" href="#">New around here? Sign up</a>
+                            <a class="dropdown-item text-tertiary" href="#">Forgot password?</a>
+                        </form>
+                    </div>
+                </div>
+            </li>
+    </nav>
+</header>
+
+  <main class="container-fluid">
+
+    <!-- POST -->
+    <div class="container">
+      <section>
+        <h2 class="animate__animated animate__fadeInDown text-tertiary">ECEEN’s First Step in South Africa | Solar
+          Charger Bag Show
+        </h2>
+        <h3 class="animate__animated animate__fadeInDown fs-5 text-center">Date: 06/12/2020
+        </h3>
+        <div>
+          <hr class="my-5">
+        </div>
+        <article class="container">
+          <div class="fs-5">
+            <p class="text-justify mt-2 fw-bolder">ECEEN SAITEX Exhibition Report in Johannesburg, South Africa
+            </p>
+            <div class="row">
+              <div class="col-lg-8 col-sm-12 text-justify">
+                <p class="text-justify mt-2"><label class="fw-bolder">Foreword</label><br>The business show was on last
+                  June 2019, it’s around 1 year now, the time runs so fast, but that trip give me a deep impression for
+                  South
+                  Africa, the social, cultural, city & country…. so that I still want to write something and share to
+                  ECEEN
+                  favors.
+                </p>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <img src="img/post1/1.jpg" class="aboutUs-img" width="400rem">
+              </div>
+            </div>
+          </div>
+          <div class="fs-5">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12">
+                <img src="img/post1/2.jpg" class="aboutUs-img" width="450rem">
+              </div>
+              <div class="col-lg-7 col-sm-12 text-justify">
+                <p class="text-justify mt-2 fw-bolder"><label class="text-tertiary">1</label> Introduction of the Show
+                </p>
+                <p>ECEEN ELECTRONIC LIMITED participated in SAITEX& SAITEX & SAITEX in the Gallagher Convention Centre,
+                  Johannesburg, South Africa from June 23, 2019 to June 25, 2019 & CTW South Africa), We took some of
+                  Solar Pack, Solar Charger for Commodity Exhibition.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="fs-6 mb-5">
+            <p class="text-justify mt-2">The ECEEN team carries a variety of fashionable solar backpacks, smart & fast
+              (QC3.0) solar charger, digital display solar chargers, including the most popular models of ECE-602,
+              ECE-611, ECE -612 in Americans and Europeans, and they have been loved by African friends in the SAITEX
+              show in Joburg too!
+            </p>
+            <p class="text-justify mt-2">ECEEN took about 30 samples of solar bags, chargers and solar lamps this time.
+              Half of the samples were booked by customers on the first day of the exhibition. By the third day of the
+              exhibition, no samples were available for sale, including our sales staff. The self-used solar backpack
+              was also forcibly bought by guests. We had to buy a bag in local area to hold the accompanying items. The
+              500 color pages brought were also sent out, African friends love solar products indeed!
+            </p>
+          </div>
+          <div class="fs-5">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12">
+                <img src="img/post1/4.jpg" class="aboutUs-img" width="450rem">
+              </div>
+              <div class="col-lg-7 col-sm-12 text-justify">
+                <p class="text-justify mt-2 fw-bolder"><label class="text-tertiary">2</label> About ECEEN
+                </p>
+                <p>ECEEN ELECTRONIC LIMITED was established in 2009, Specializing in the research and development and
+                  production of solar bags, solar chargers, solar lights and other related products, they are widely
+                  works for smartphones, digital cameras, tablets, laptops and other charging products. The green and
+                  environmental of energy-saving, outdoor, and sports products such as solar bags, chargers, and solar
+                  lamps etc. are exported to the world and are we received well favors!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="fs-5">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12">
+                <img src="img/post1/5.jpg" class="aboutUs-img" width="450rem">
+              </div>
+              <div class="col-lg-7 col-sm-12 text-justify">
+                <p class="text-justify mt-2 fw-bolder"><label class="text-tertiary">3</label> About South Africa
+                </p>
+                <p>South Africa is located in the southern hemisphere and has the reputation of "the country of the
+                  rainbow". It is located at the southernmost tip of the African continent, with a land area of 1219090
+                  square kilometers. It is surrounded by the Indian Ocean and the Atlantic on the east, south and west.
+                  Zimbabwe, Mozambique and Swaziland border. It faces the Indian Ocean and Australia to the east, and
+                  Brazil and Argentina to the west.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="fs-6 mb-5">
+            <p class="text-justify">South Africa is the second largest economy in Africa, and its citizens have a
+              high standard of living. South Africa has developed financial, legal, communications, energy, and
+              transportation industries. South Africa is a middle-income developing country. South Africa has three
+              capitals. South Africa has a free trade system and is a founding member of the World Trade Organization
+              (WTO). The EU and the United States are South Africa's traditional trading partners, and trade with Asia,
+              the Middle East and other regions is also growing.
+            </p>
+          </div>
+          <div class="fs-5">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12">
+                <img src="img/post1/6.jpg" class="aboutUs-img" width="450rem">
+              </div>
+              <div class="col-lg-7 col-sm-12 text-justify">
+                <p class="text-justify mt-2 fw-bolder"><label class="text-tertiary">4</label> ECEEN’s First Step on
+                  South Africa
+                </p>
+                <p>Therefore, this time the ECEEN team set foot on the African continent for the first time. First of
+                  all, South Africa, South Africa not only has its own economic and trade development, but also radiates
+                  the landlocked countries in the southern part of the African continent. Africa has good sunshine, most
+                  of the time there is no rain, lack of electricity, ECEEN’s Solar products very suitable on local
+                  climate conditions. Many local guests come to find business opportunities, and local Chinese
+                  businessmen also come to discuss business.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="fs-6 mb-5">
+            <p class="text-justify mt-2">The ECEEN sales team also obtained a lot of information from the show, it gave
+              us a lot of ideas, so we developed products suitable for local people, We launched various forms of
+              cooperation with local related companies and teams. This exhibition allows us to look squarely at the
+              African market and see the development potential. It is a successful product promotion show.
+            </p>
+          </div>
+          <div class="fs-5">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12">
+                <img src="img/post1/7.jpg" class="aboutUs-img" width="450rem">
+              </div>
+              <div class="col-lg-7 col-sm-12 text-justify">
+                <p class="text-justify mt-2 fw-bolder"><label class="text-tertiary">5</label> Trips in Johannesburg
+                </p>
+                <p>The ECEEN team reserved a few days, visited several companies, and initially reached a cooperation
+                  intention; also went to the most famous local malls, Mandela Square, Sandton Center, etc.; also
+                  visited Chinatown and felt Strong cost control capabilities from domestic commodities; We also visited
+                  the famous Mandela House, Sun City, the Fort Wildlife Park. The endless wildness and grasslands,
+                  breathtaking! I also felt the huge gap between local poverty and wealth...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="fs-3">
+            <p class="text-justify mt-2 fw-bolder text-center">Thanks for reading!</p>
+          </div>
+    </div>
+    </article>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="py-2 mt-5">
+      <div class="container footer-info py-2 px-3">
+        <div class="row mx-4">
+          <div class="col-6 col-lg-2 mb-3">
+            <strong>General info</strong><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#aboutUs">About us</a><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#ourStory">Our story</a><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#ourBrand">ECEEN brand</a><br><a class="text-decoration-none link-light"
+              href="contact.html">Contact us</a>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <strong>Policy and Information</strong><br><a class="text-decoration-none link-light"
+              href="privacyAndSecurity.html">Privacy & Security Policy</a><br><a class="text-decoration-none link-light"
+              href="termsOfUse.html">Terms
+              of Use Agreement</a><br>
+          </div>
+          <div class="col-6 col-lg-5 mb-3">
+            <strong>Shipping</strong><br><a class="text-decoration-none link-light" href="shipping.html">Shipping</a>
+          </div>
+          <div class="col-lg-3 mb-3 justify-content-end">
+            <p class="my-2">Follow us:</p>
+            <a class="footer-icons"
+              href="https://business.facebook.com/ECEEN-solar-Powered-Charger-and-Backpacks-369194183593195/?business_id=273283417371256&modal=admin_todo_tour"><img
+                src="img/facebook.png" width="30rem"></a><a class="footer-icons"
+              href="https://twitter.com/EceenGrid"><img src="img/twitter.png" width="30rem"></a><a class="footer-icons"
+              href="https://www.instagram.com/eceen_solar_backpack_charger/"><img src="img/instagram.png"
+                width="30rem"></a><a class="footer-icons"
+              href="https://www.youtube.com/channel/UCjUo8IN0Aa06skTCvTQxUVQ?view_as=subscriber"><img
+                src="img/youtube.png" width="30rem"></a>
+          </div>
+        </div>
+        <hr class="hr-footer">
+        <div class="row mx-4">
+          <div class="col-lg-2 mb-2">
+            <a href="index.html"><img src="img/logo_footer.png" width="170rem" class="img-fluid"></a>
+          </div>
+          <div class="col-5 col-lg-5 align-middle">
+            <p class="footer-copyright my-sm-2">Copyright 2021 ECEEN. All rights reserved. <a href="#"
+                class="link-light">Privacy
+                Policy</a> <a href="#" class="link-light">Terms of Use.</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>

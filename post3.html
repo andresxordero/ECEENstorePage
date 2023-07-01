@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="img/icon.jpg" />
+
+  <!--CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Animacion CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <title>ECEEN - About Us</title>
+</head>
+
+<body class="largeBG">
+
+  <!--HEADER-->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler px-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <img src="img/menu.png" style="width: 2rem !important;" class="hamburguesa">
+            </button>
+
+            <!-- Logo de Eceen -->
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="logo ms-center"></a>
+
+            <!-- Barra de Navegación y elementos -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-start">
+                    <a class="nav-link px-3" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link px-3 active" href="products01.html">Products</a>
+                    <a class="nav-link px-3" href="news.html">News</a>
+                    <a class="nav-link px-3" href="aboutUs.html">About Us</a>
+                    <a class="nav-link px-3" href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <!-- Dropdown - Buscar -->
+            <li class="nav-item dropdown list-unstyled d-none d-sm-block">
+                <a class="nav-link dropdown text-end" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="img/search.png" width="25rem">
+                </a>
+                <div class="dropdown-menu  dropdown-menu-end">
+                    <form class="d-flex" style="width: 30rem;">
+                        <input class="form-control me-2 ms-2" type="search" placeholder="What are you looking for?"
+                            aria-label="Search">
+                        <button class="btn btn-primary-sm me-2" type="submit">Search</button>
+                    </form>
+                </div>
+            </li>
+
+            <!-- Dropdown - Carrito -->
+            <li class="nav-item list-unstyled d-none d-sm-block">
+                <a class="nav-link" href="cart.html"><img src="img/cart.png" width="25rem"></a>
+            </li>
+
+            <!-- Dropdown - Usuario -->
+            <li class="nav-item dropdown list-unstyled d-sm-block">
+                <a class="nav-link dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/user.png" width="25rem">
+                </a>
+                <div class="dropdown-menu px-4 py-3 dropdown-menu-end">
+                    <div id="login">
+                        <form class="px-4 py-3" style="width: 16rem;">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Email address</label>
+                                <input type="email" class="form-control" name="name" id="form_name"
+                                     placeholder="email@example.com"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id=""
+                                    placeholder="Password"/>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck"/>
+                                    <label class="form-check-label" for="dropdownCheck">
+                                        Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="submit" value="Send" class="btn btn-primary-sm justify-content-center">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-tertiary" href="#">New around here? Sign up</a>
+                            <a class="dropdown-item text-tertiary" href="#">Forgot password?</a>
+                        </form>
+                    </div>
+                </div>
+            </li>
+    </nav>
+</header>
+
+  <main class="container-fluid">
+
+    <!-- POST -->
+    <div class="container">
+      <section>
+        <h2 class="animate__animated animate__fadeInDown text-tertiary">Be charming like Morning Sun
+        </h2>
+        <h3 class="animate__animated animate__fadeInDown fs-5 text-center">Date: 02/09/2017　
+        </h3>
+        <div>
+          <hr class="my-5">
+        </div>
+        <article class="container">
+          <div class="fs-4">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12">
+                <img src="img/post3/1.jpg" class="aboutUs-img" width="450rem">
+              </div>
+              <div class="col-lg-7 col-sm-12 text-justify">
+                <p>Jan 12th, 2017 at 10:00pm, as soon as I came back to office, I wrote some words, Jan 13th 2017 at
+                  20:00pm, I am writing and I am thinking something. It has been one week since I came to Shen Zhen,
+                  five days at our company. I am very happy and satisfied today for a trifle of progress in my duty even
+                  though only a trifle. I imaged many working conditions, work smoothly, tired, hard. But everything
+                  goes well here, tired but with great passion and confidence.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="fs-5">
+            <div class="row">
+              <div class="col-lg-8 col-sm-12 text-justify">
+                <p class="text-justify mt-2">The first day, familiar with products, to be honest, there are a lot of
+                  company products, involving a very wide sense of knowledge, remember a mess. The next day, familiar
+                  with customer inquiries, I learned such content at my college even though I did not get a very good
+                  performance at that time; it looks like a little easy to get started. I realized that the content of
+                  college classes is very important. I should concentrate on studying. So, my dears, strive to acquire
+                  knowledge as you can learn it since it will be used sooner or later. Sometimes, we may want to give
+                  up, but we cannot, one of my friends said: We have been exercising their ability to endure pain the
+                  whole life, but it is not painful, because it does not matter, you think it is, it is, you think it Is
+                  happy, that is happy.
+                </p>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <img src="img/post3/2.jpg" class="aboutUs-img" width="400rem">
+              </div>
+            </div>
+          </div>
+          <div class="fs-4">
+            <div class="row">
+              <div class="col-lg-5 col-sm-12">
+                <img src="img/post3/3.jpg" class="aboutUs-img" width="450rem">
+              </div>
+              <div class="col-lg-7 col-sm-12 text-justify">
+                <p>We all want a solid base to start from, so, just keep going, the true nobility is in being superior
+                  to your previous self. Start with ECEEN!I always felt that people should be thankful all the time; I
+                  am lick to come here to meet all my colleges, thanks for your kind help. Life is a pure flame, and we
+                  live by an invisible sun within us!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="fs-3">
+            <p class="text-justify mt-2 fw-bolder text-center">Thanks for reading!</p>
+          </div>
+    </div>
+    </article>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="py-2 mt-5">
+      <div class="container footer-info py-2 px-3">
+        <div class="row mx-4">
+          <div class="col-6 col-lg-2 mb-3">
+            <strong>General info</strong><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#aboutUs">About us</a><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#ourStory">Our story</a><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#ourBrand">ECEEN brand</a><br><a class="text-decoration-none link-light"
+              href="contact.html">Contact us</a>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <strong>Policy and Information</strong><br><a class="text-decoration-none link-light"
+              href="privacyAndSecurity.html">Privacy & Security Policy</a><br><a class="text-decoration-none link-light"
+              href="termsOfUse.html">Terms
+              of Use Agreement</a><br>
+          </div>
+          <div class="col-6 col-lg-5 mb-3">
+            <strong>Shipping</strong><br><a class="text-decoration-none link-light" href="shipping.html">Shipping</a>
+          </div>
+          <div class="col-lg-3 mb-3 justify-content-end">
+            <p class="my-2">Follow us:</p>
+            <a class="footer-icons"
+              href="https://business.facebook.com/ECEEN-solar-Powered-Charger-and-Backpacks-369194183593195/?business_id=273283417371256&modal=admin_todo_tour"><img
+                src="img/facebook.png" width="30rem"></a><a class="footer-icons"
+              href="https://twitter.com/EceenGrid"><img src="img/twitter.png" width="30rem"></a><a class="footer-icons"
+              href="https://www.instagram.com/eceen_solar_backpack_charger/"><img src="img/instagram.png"
+                width="30rem"></a><a class="footer-icons"
+              href="https://www.youtube.com/channel/UCjUo8IN0Aa06skTCvTQxUVQ?view_as=subscriber"><img
+                src="img/youtube.png" width="30rem"></a>
+          </div>
+        </div>
+        <hr class="hr-footer">
+        <div class="row mx-4">
+          <div class="col-lg-2 mb-2">
+            <a href="index.html"><img src="img/logo_footer.png" width="170rem" class="img-fluid"></a>
+          </div>
+          <div class="col-5 col-lg-5 align-middle">
+            <p class="footer-copyright my-sm-2">Copyright 2021 ECEEN. All rights reserved. <a href="#"
+                class="link-light">Privacy
+                Policy</a> <a href="#" class="link-light">Terms of Use.</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>

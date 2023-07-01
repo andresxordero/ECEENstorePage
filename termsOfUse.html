@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="img/icon.jpg" />
+
+  <!--CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Animacion CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <title>ECEEN - Terms of Use</title>
+</head>
+
+<body class="largeBG">
+
+  <!--HEADER-->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler px-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <img src="img/menu.png" style="width: 2rem !important;" class="hamburguesa">
+            </button>
+
+            <!-- Logo de Eceen -->
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="logo ms-center"></a>
+
+            <!-- Barra de Navegación y elementos -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-start">
+                    <a class="nav-link px-3 active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link px-3" href="products01.html">Products</a>
+                    <a class="nav-link px-3" href="news.html">News</a>
+                    <a class="nav-link px-3" href="aboutUs.html">About Us</a>
+                    <a class="nav-link px-3" href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <!-- Dropdown - Buscar -->
+            <li class="nav-item dropdown list-unstyled d-none d-sm-block">
+                <a class="nav-link dropdown text-end" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="img/search.png" width="25rem">
+                </a>
+                <div class="dropdown-menu  dropdown-menu-end">
+                    <form class="d-flex" style="width: 30rem;">
+                        <input class="form-control me-2 ms-2" type="search" placeholder="What are you looking for?"
+                            aria-label="Search">
+                        <button class="btn btn-primary-sm me-2" type="submit">Search</button>
+                    </form>
+                </div>
+            </li>
+
+            <!-- Dropdown - Carrito -->
+            <li class="nav-item list-unstyled d-none d-sm-block">
+                <a class="nav-link" href="cart.html"><img src="img/cart.png" width="25rem"></a>
+            </li>
+
+            <!-- Dropdown - Usuario -->
+            <li class="nav-item dropdown list-unstyled d-sm-block">
+                <a class="nav-link dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="img/user.png" width="25rem">
+                </a>
+                <div class="dropdown-menu px-4 py-3 dropdown-menu-end">
+                    <div id="login">
+                        <form class="px-4 py-3" style="width: 16rem;">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Email address</label>
+                                <input type="email" class="form-control" name="name" id="form_name"
+                                     placeholder="email@example.com"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id=""
+                                    placeholder="Password"/>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck"/>
+                                    <label class="form-check-label" for="dropdownCheck">
+                                        Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="submit" value="Send" class="btn btn-primary-sm justify-content-center">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-tertiary" href="#">New around here? Sign up</a>
+                            <a class="dropdown-item text-tertiary" href="#">Forgot password?</a>
+                        </form>
+                    </div>
+                </div>
+            </li>
+    </nav>
+</header>
+
+  <!--TTTLE-->
+  <div class="mt-0 paginas text-white text-center align-middle">
+    <h2 class=" titulo-largo my-0 pt-4_5 pt-xs-4 animate__animated animate__backInDown">Terms of use agreement</h2>
+  </div>
+
+  <main class="container-fluid">
+
+    <!-- ABOUT US -->
+    <div class="container">
+      <section>
+        <article class="container">
+          <p class="text-justify fs-5 pt-5 pb-4">Please read the following terms and conditions carefully. <br> The Terms of
+            Use Agreement ( hereinafter as the agreement) illuminates the terms and conditions applicable to your use of
+            ECEEN website which is identified by the uniform resource locator www.eceen.com ( hereinafter as the site ).
+            The agreement applies to you as the user of the site and the owner of the site.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article class="container">
+          <p class="text-justify fs-4 mb-2"><label class="text-tertiary alert-link">1</label> <b>Application and
+              Acceptance of Terms and
+              Conditions.</b>
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">1.1</label> The Definition of User. User here means anyone who
+            acesses the site
+            for any purpose, including registered users and any comodity or service payers on this site. Specifically, a
+            user is anyone who has legal access to the site by his or her actual or apparent authority.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">1.2</label> The Acceptance of the Terms and Conditions. As a user,
+            you shall be bound by the terms and conditions of the agreement with respect to your access, use, upgrade,
+            modification, addition or change of the Site. You shall accept all the terms and conditions as a user of the
+            Site.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">1.3</label> The Amendment of the Agreement. The agreement can be
+            amended and restated by the site at any time. The updated agreement shall be effective immediately upon
+            posting. Your continued use of the Site shall be deemed as your acceptance of the updated agreement.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">1.4</label> Electronical Communication. As you visit the site and
+            send customer requests, you are communicating with the Site electronically. On account of your consent to
+            the communication, the site will communicate with you by e-mail or posting site notices.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article class="container">
+          <p class="text-justify fs-4 mb-2"><label class="text-tertiary alert-link">2</label> <b>Users Regulation</b>
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">2.1</label> Users shall abide by the regualtion that they cannot
+            copy, reproduce or download any information, text, images, video clips, directories, files, databases or
+            listings available on the site for the purpose of re-selling or re-distributing the site's content. Neither
+            can they operate a business to compete with the site, or mail the site's content in mass or exploit the
+            site's content commercially.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">2.2</label> Direct or indirect systematic retrieval of the site's
+            content to create or compile a collection, database or directory by any means without written permission
+            from the site is prohibited. In addition, use of the content or materials for any purpose not expressly
+            permitted in this agreement is also prohibited.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">2.3</label> The site is not responsible for the accuracy, propriety
+            or lawfulness of any third party content, and shall not be liable to any user in connection with such third
+            party content. Besides, the site is not responsible for the conduct of any user, or weibsites, content,
+            products or services available via hyperlinks by third parties. The site shall not be liable to anyone in
+            connection with any damage caused on account of such conduct and third parties' content.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">2.4</label> Users hereby agree that in no event shall the site be
+            liable to the user or any third party for any inability to use the site for any delays, inaccuracies, errors
+            or omissions with respect to any communications or transmission, or any damage caused due to the use of or
+            inability to use the site.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">2.5</label> No User shall undertake any scheme to undermine the
+            integrity of the computer systems or networks used by the site and/or any other user and no user shall
+            attempt to gain unauthorized access to such computer systems or networks.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">2.6</label> Users hereby accept the Privacy Policy and any updates
+            and amendments thereto. Users acknowledge that the site may change the Privacy Policy from time to time
+            provided that the site shall make available the updated version of the Privacy Policy on the site at all
+            times. Your continued use of the site shall be deemed as your acceptance of the updated Privacy Policy.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">2.7</label> The site and/or its affiliates will in appropriate
+            circumstances terminate the accounts of users who are repeat infringers of intellectual property rights or
+            other legitimate rights. Besides, the site reserves the right to terminate the account of a user upon any
+            single infringement of the above-mentioned rights. The site's has sole discretion to terminate any account
+            found be to harmful to the interests of the site, its affiliates or other users.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article class="container">
+          <p class="text-justify fs-4 mb-2"><label class="text-tertiary alert-link">3</label> <b>Registered Users</b>
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">3.1</label> Users who completed and submitted a registration form by
+            giving relevant information will be assigned a user ID and password as a registered account by the site.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">3.2</label> For buiness entity, users have to represent the
+            authority to bind the entity to the agreement, a principal address for the business entity and all other
+            necessary information for registeration. Based on this provision, the principal address of business entity
+            will be deemed as its head office.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">3.3</label> Registered users shall consent to the inclusion of
+            personal data in our Buyer Database. The site may contact users for personal data with whatever information
+            the site needs to convey to you.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">3.4</label> The site may suspend or terminate a registered account
+            at any time by giving no less than 24-hour notice to the user provided that the site has reasonable grounds
+            to suspect that any information provided is untrue, inaccurate or not current or complete; or the user's
+            actions may cause financial loss or legal liability to such registered user.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">3.5</label> A registered user shall not sell, attempt to sell, offer
+            to sell, give, assign or transfer an account to a third party without the prior written consent of the site.
+            The site may suspend or terminate the account of a registered user or the transferee of a registered user in
+            relevant events.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">3.6</label> Notwithstanding Section 3.1 above, the site may refuse
+            registration and deny the issuance of a certain account and associated user ID and password for whatever
+            reason.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article class="container">
+          <p class="text-justify fs-4 mb-2"><label class="text-tertiary alert-link">4</label> <b>Intellectual Property
+              Rights (IPR) Protection Policy</b>
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">4.1</label> www.eceen.com is the sole owner or lawful licensee of
+            all the rights to the site and its content. The site's content embodies trade secrets and intellectual
+            property rights protected under worldwide copyright and other laws. All title, ownership and intellectual
+            property rights in the site shall remain with ECEEN, its affiliates or licensors of the site's content, as
+            the case may be. All rights not otherwise claimed under this agreement or by eceen.com are hereby reserved.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">4.2</label> "ECEEN", "eceen.com" and related icons and logos are
+            registered trademarks or trademarks or service marks of the site, in various jurisdictions and are protected
+            under applicable copyright, trademark and other proprietary rights laws. The unauthorized copying,
+            modification, use or publication of these marks is strictly prohibited.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">4.3</label> ECEEN respects the intllectual property rights of
+            others, and expects all users to do the same. Unauthorized use of another party's materials and trademarks
+            is forbidden on the site.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">4.4</label> How to report an alleged IPR infringement to ECEEN: <br>
+            If you clearly confirm that a listing on the site infringes your copyright, trademark, patent or other
+            intellectual property rights, you may complete ECEEN's Notice of Claimed IPR Infringement Form and email it
+            to ECEEN (grid@eceen.com). The completed Notice should specifically identify the seller and each and every
+            link which is claimed to be infringing your rights (specific URL).
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article class="container">
+          <p class="text-justify fs-4 mb-2"><label class="text-tertiary alert-link">5</label> <b>Limitation of
+              Liability</b>
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">5.1</label> To the maximum extent permitted by law, the features and
+            services on the site are provided on an "as is" and "as available" basis, and eceen.com hereby expressly
+            disclaims any and all warranties, express or implied, including but not limited to any warranties of
+            condition, quality, durability, performance, accuracy, reliability, merchantability or fitness for a
+            particular purpose. All such warranties, representations, conditions, undertakings and terms are hereby
+            excluded.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">5.2</label> To the maximum extent permitted by law, ECEEN makes no
+            reperesentations or warranties about the validity, accuracy, correctness, reliability, quality, stability,
+            completeness or currentness of any information provided on the site. ECEEN does not represent or warranty
+            that the manufacture, importation, export,distribution, offer, display, purchase, sale and use of products
+            or services offered or displayed on the site does not violate any third party rights.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">5.3</label> Any material downloaded or obtained through the site is
+            done at each user's sole discretion and risk and each user is solely responsible for any damage to its
+            computer system or loss of data that results from the download of any such material. No oral and written
+            advice or information obtained by any user from the site shall create any warranty not expressly stated
+            herein.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">5.4</label> Under no circumstances shall ECEEN be held liable for
+            any delay or failure or disruption of the content or services delivered through the site resulting directly
+            or indirectly from acts of nature, forces or causes beyond its reasonable control, including without
+            limitation, Internet failures, computer, telecommunications or any other equipment failures, electrical
+            power failures, etc.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">5.5</label> All users hereby agree to indemnify and save the site,
+            its affiliates, directors, officers and employees harmless, from any and all losses, claims, liabilities
+            (including legal costs on a full indemnity basis) which may arise from a certain user's use of the site
+            (including but not limited to the display of such a user's information on the site) or from its breach of
+            any of the terms and conditions of this agreement.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article class="container">
+          <p class="text-justify fs-4 mb-2"><label class="text-tertiary alert-link">6</label> <b>Supplementary Notes</b>
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">6.1</label> ECEEN's failure to enforce any right or failure to act
+            with respect to any breach by a user under this agreement will not waive that right nor waives ECEEN's right
+            to act with respect with subsequent or similar breaches.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">6.2</label> ECEEN shall have the right to assign this agreement
+            (including all of its rights, titles, benefits, interests, and obligations and duties in this Agreement).
+            The users may not assign, in whole or part, this agreement to any person or entity.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">6.3</label> This agreement shall be governed by the laws of the
+            people's Republic of China without regard to its conflict of law provisions. The parties to this agreement
+            hereby submit to the exclusive jurisdiction of the courts of China.
+          </p>
+          <p class="text-justify fs-6">
+            <label class="text-tertiary alert-link">6.4</label> If there is any discrepancy between the English version
+            and another language version of this agreement, the English language version shall prevail.
+          </p>
+        </article>
+      </section>
+
+    </div>
+
+    <!--FOOTER-->
+    <footer class="py-2 mt-5">
+      <div class="container footer-info py-2 px-3">
+        <div class="row mx-4">
+          <div class="col-6 col-lg-2 mb-3">
+            <strong>General info</strong><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#aboutUs">About us</a><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#ourStory">Our story</a><br><a class="text-decoration-none link-light"
+              href="aboutUs.html#ourBrand">ECEEN brand</a><br><a class="text-decoration-none link-light"
+              href="contact.html">Contact us</a>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <strong>Policy and Information</strong><br><a class="text-decoration-none link-light"
+              href="privacyAndSecurity.html">Privacy & Security Policy</a><br><a class="text-decoration-none link-light"
+              href="termsOfUse.html">Terms
+              of Use Agreement</a><br>
+          </div>
+          <div class="col-6 col-lg-5 mb-3">
+            <strong>Shipping</strong><br><a class="text-decoration-none link-light" href="shipping.html">Shipping</a>
+          </div>
+          <div class="col-lg-3 mb-3 justify-content-end">
+            <p class="my-2">Follow us:</p>
+            <a class="footer-icons"
+              href="https://business.facebook.com/ECEEN-solar-Powered-Charger-and-Backpacks-369194183593195/?business_id=273283417371256&modal=admin_todo_tour"><img
+                src="img/facebook.png" width="30rem"></a><a class="footer-icons"
+              href="https://twitter.com/EceenGrid"><img src="img/twitter.png" width="30rem"></a><a class="footer-icons"
+              href="https://www.instagram.com/eceen_solar_backpack_charger/"><img src="img/instagram.png"
+                width="30rem"></a><a class="footer-icons"
+              href="https://www.youtube.com/channel/UCjUo8IN0Aa06skTCvTQxUVQ?view_as=subscriber"><img
+                src="img/youtube.png" width="30rem"></a>
+          </div>
+        </div>
+        <hr class="hr-footer">
+        <div class="row mx-4">
+          <div class="col-lg-2 mb-2">
+            <a href="index.html"><img src="img/logo_footer.png" width="170rem" class="img-fluid"></a>
+          </div>
+          <div class="col-5 col-lg-5 align-middle">
+            <p class="footer-copyright my-sm-2">Copyright 2021 ECEEN. All rights reserved. <a href="#" class="link-light">Privacy
+                Policy</a> <a href="#" class="link-light">Terms of Use.</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
